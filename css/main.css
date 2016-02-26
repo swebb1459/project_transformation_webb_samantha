@@ -34,14 +34,8 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
-}
-
-a:hover {
 }
 
 #wrapper {
@@ -50,7 +44,7 @@ a:hover {
 
 .container {
     width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -63,7 +57,7 @@ a:hover {
     width: 1000px;
     height: 150px;
     margin: 0 auto;
-    padding: 0px 0px;
+    padding: 0;
 }
 
 /* Logo */
@@ -74,9 +68,6 @@ a:hover {
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-#logo h1, #logo p {
 }
 
 #logo h1 {
@@ -92,7 +83,7 @@ a:hover {
 
 #logo p {
     margin: 0;
-    padding: 0px 0 0 0px;
+    padding: 0x;
     letter-spacing: -1px;
     font: normal 18px Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -115,7 +106,7 @@ a:hover {
 #splash {
     width: 960px;
     height: 300px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* Search */
@@ -124,7 +115,7 @@ a:hover {
     float: right;
     width: 280px;
     height: 60px;
-    padding: 20px 0px 0px 0px;
+    padding-top: 20px 0 0 0;
 }
 
 #search form {
@@ -170,7 +161,7 @@ a:hover {
 #menu ul {
     float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0 0 0;
     list-style: none;
     line-height: normal;
 }
@@ -183,7 +174,7 @@ a:hover {
     display: block;
     line-height: 100px;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
@@ -201,15 +192,12 @@ a:hover {
     color: #FFFFFF;
 }
 
-#menu .current_page_item a {
-}
-
 /* Page */
 
 #page {
     width: 1000px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 /* Content */
@@ -217,7 +205,7 @@ a:hover {
 #content {
     float: right;
     width: 660px;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
 }
 
 .post {
@@ -227,7 +215,7 @@ a:hover {
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -239,7 +227,7 @@ a:hover {
 
 .post .meta {
     margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 16px;
@@ -254,11 +242,8 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 0 0 40px 0;
     text-align: justify;
 }
 
@@ -295,8 +280,8 @@ a:hover {
 #sidebar {
     float: left;
     width: 270px;
-    margin: 0px;
-    padding: 30px 0px 0px 0px;
+    margin: 0;
+    padding: 30px 0 0 0;
 }
 
 #sidebar ul {
@@ -311,14 +296,14 @@ a:hover {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
+    margin: 0;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
-    margin: 0px 0px;
+    margin: 0;
     border-left: none;
 }
 
@@ -331,21 +316,21 @@ a:hover {
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0 0 0 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 0 0 30px 0;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
+    margin: 0;
+    padding: 0 30px 20px 30px;
     text-align: justify;
 }
 
@@ -358,9 +343,6 @@ a:hover {
 }
 
 /* Calendar */
-
-#calendar {
-}
 
 #calendar_wrap {
     padding: 20px;
@@ -383,7 +365,7 @@ a:hover {
 #footer-content {
     overflow: hidden;
     width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
     color: #D6E2F0;
 }
 
@@ -393,18 +375,17 @@ a:hover {
 
 #footer-bg {
     overflow: hidden;
-    padding: 30px 0px;
+    padding: 30px 0;
     background: #E8E8E8;
 }
 
 #footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
+    margin: 0;
+    padding: 0 0 20px 0;
     letter-spacing: -1px;
     font-size: 26px;
     color: #262626;
 }
-
 
 #footer-content #fbox1 {
     float: left;
@@ -420,9 +401,6 @@ a:hover {
 #footer-content #fbox3 {
     float: right;
     width: 300px;
-}
-
-#footer-content a {
 }
 
 #column1 {
@@ -468,15 +446,15 @@ a:hover {
 #marketing {
     overflow: hidden;
     margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0 10px 0;
     border-top: 1px solid #E7EBED;
     border-bottom: 1px solid #E7EBED;
 }
 
 #marketing .text1 {
     float: left;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     letter-spacing: -2px;
     text-transform: lowercase;
     font-size: 34px;
@@ -491,7 +469,7 @@ a:hover {
     display: block;
     width: 252px;
     height: 38px;
-    padding: 15px 0px 0px 0px;
+    padding: 15px 0 0 0;
     background: url(../img/img07.jpg) no-repeat left top;
     letter-spacing: -2px;
     text-align: center;
@@ -501,19 +479,15 @@ a:hover {
 }
 
 #banner {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 1000px;
     height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-#banner .content {
-}
-
-
 .list-style1 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
