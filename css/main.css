@@ -72,10 +72,9 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
-    width: 300px;
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 30px 5px;
     color: #FFFFFF;
 }
 
@@ -88,19 +87,6 @@ a {
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0x;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8E8E8E;
-}
-
-#logo p a {
-    color: #8E8E8E;
 }
 
 #logo a {
