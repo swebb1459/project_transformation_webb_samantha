@@ -295,14 +295,14 @@ a {
 @media all and (min-width: 800px) {
     #sidebar {
         float: left;
-        width: 30%;
+        width: 25%;
     }
 }
 
 @media (min-width: 800px) {
     #content {
         float: right;
-        width: 70%;
+        width: calc(100%/3*2);
     }
 
 #footer {
