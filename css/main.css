@@ -79,7 +79,6 @@ a {
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -99,30 +98,22 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
-    width: 500px;
-    height: 90px;
+    width: 100%;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0 0 0;
     list-style: none;
     line-height: normal;
 }
 
-#menu li {
-    float: left;
-}
-
 #menu a {
     display: block;
-    line-height: 100px;
     margin-right: 1px;
-    padding: 0 20px;
+    padding: 11px 20px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
