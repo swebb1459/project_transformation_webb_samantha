@@ -131,6 +131,20 @@ a {
     color: #FFFFFF;
 }
 
+@media all and (min-width: 550px) {
+    #menu li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 700px) {
+    #menu li {
+        display: inline-block;
+        width: calc(100%/5);
+    }
+}
+
 #banner {
     margin: 0 auto;
     background: url(../img/img03.png) no-repeat left bottom;
