@@ -53,7 +53,7 @@ a {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 30px 0;
 }
@@ -490,9 +490,12 @@ a {
 
 #banner {
     margin: 0 auto;
-    width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 .list-style1 {
