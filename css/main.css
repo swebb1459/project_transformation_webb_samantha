@@ -172,14 +172,6 @@ a {
     font-weight: 300;
 }
 
-.post .meta time {
-    float: left;
-}
-
-.post .meta .posted {
-    float: right;
-}
-
 .post .entry {
     padding: 0 0 40px 0;
     text-align: justify;
@@ -192,7 +184,6 @@ a {
 
 .more {
     display: block;
-    float: left;
     width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
@@ -204,7 +195,6 @@ a {
 
 .comments {
     display: block;
-    float: left;
     width: 88px;
     padding: 5px 5px;
     background: #222222;
