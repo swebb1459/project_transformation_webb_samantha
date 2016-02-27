@@ -151,12 +151,12 @@ a {
     }
 }
 
-#banner {
+figure {
     margin: 0 auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
-#banner img {
+figure img {
     width: 100%;
     height: auto;
 }
