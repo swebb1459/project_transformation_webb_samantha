@@ -131,12 +131,22 @@ a {
     color: #FFFFFF;
 }
 
+#banner {
+    margin: 0 auto;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
 /* Page */
 
 #page {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
 }
 
 /* Content */
@@ -270,33 +280,17 @@ a {
 }
 
 #footer {
-    height: 140px;
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 50px 0 50px 0;
     font-family: 'Abel', sans-serif;
 }
 
 #footer p {
     margin: 0;
-    padding-top: 10px;
     letter-spacing: 1px;
     line-height: normal;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
-}
-
-#footer a {
-    color: #5E5E5E;
-}
-
-#banner {
-    margin: 0 auto;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner img {
-    width: 100%;
-    height: auto;
 }
