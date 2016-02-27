@@ -52,6 +52,12 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -228,6 +234,7 @@ a {
 .more + .comments {
     margin-top: 10px;
 }
+
 /* Sidebar */
 
 #sidebar {
@@ -284,6 +291,19 @@ a {
 #sidebar a:hover {
     text-decoration: underline;
 }
+
+@media all and (min-width: 800px) {
+    #sidebar {
+        float: left;
+        width: calc(100% / 3);
+    }
+}
+
+@media (min-width: 800px) {
+    #content {
+        float: right;
+        width: calc(100% / 3 * 2);
+    }
 
 #footer {
     margin: 0 auto;
